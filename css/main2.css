@@ -1,0 +1,123 @@
+/******************BASE STYLES***********************/
+body {
+    background-color: #FEFEEE;
+}
+
+h3{ 
+    color: #830194;
+    font-family: 'Bungee', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+p{
+    font-family: 'archivo narrow', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/******************GRID SYSTEM**********************/
+main {
+    margin:0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.large-col {
+    float:left;
+    width: 800px;
+}
+
+.small-col {
+    float: left;
+    width: 400px;
+}
+
+footer {
+    background-color: #830194;
+    clear: both;
+    height:100px;
+    margin:0 auto;
+    width: 1200px;
+}
+
+/*********************HEADER***********************/
+header{
+    background-color: #830194;
+    color:white;
+    height: 250px;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1{
+    font-family: 'Bungee', sans-serif;
+    display: inline-block;
+    font-size: 84px;
+    line-height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h2{
+    font-family: 'Bungee', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+/*********************MISSION********************/
+#about {
+    padding: 0 50px;
+}
+
+#about p {
+    text-align: center;
+    margin: 0 150px 75px 150px;
+}
+
+/*******************PORTFOLIO******************/
+#portfolio {
+    padding-bottom: 75px;
+}
+
+/******************NAVBAR*****************/
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    color: #529410;
+    font-family: 'Bungee', sans-serif;
+    font-size: 18px;
+    padding-right: 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/***************SKILLS*******************/
+aside h4 {
+    color:#529410;
+    font-family: 'archivo narrow', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 0px;
+    text-align: center;
+}
+
+.skill {
+    margin: 75px 0;
+}
+
+/***************FOOTER****************/
+footer h3{
+    color: white;
+    letter-spacing: 5px;
+    padding-top:15px;
+}
