@@ -2,77 +2,97 @@
 <html lang="en">
 
     <head>
-        <title>Samantha | Portfolio</title>
+        <title>Samantha Jara | Portfolio</title>
 
         <!--Stylesheets-->
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main2.css">
+        <link rel="stylesheet" href="css/main3.css">
 
         <!--Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&family=Bungee&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
         
     </head>
 
     <body>
         <main>
-            <div class="large-col">
-                <header>
-                    <h1>Samantha Jara</h1>
-                    <h2>Web Developer<br>and Designer</h2>
-                </header>
-                <div id="about">
-                    <h3>Mission</h3>
-                    <p>I am quickly learning about web designer and web developing and am striving for a 
-                        career in the field.  With a minor in computer programming I am picking up things fast.  </p>
+            <nav>
+                <ul>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    
+                </ul>
+            </nav>
+
+            <header>
+                <h1>Samantha Jara</h1>
+                <h2>Web Developer and Designer</h2>
+                <p>Hi!  I'm a web developer and designer just starting out and learning the trade.  I strive 
+                    to create clean designs and clean well documented code.  Please feel free to check the 
+                    code behind each of my HTML and CSS examples to see how organized it is and find 
+                    me on Github. Thanks for reading! </p>
+            </header>
+
+            <section id="skills">
+                <h3>Top Skills</h3>
+
+                <div class="sixth-col">
+                    <img src="img/html-icon.png" alt="HTML Icon" />
+                    <h4>HTML</h4>
                 </div>
-                <div id="portfolio">
-                    <h3>Portfolio Sneak Peak</h3>
-                    <a href="recipe/index.html" target="_blank"><img src="img/portfolio-example-1.png" alt="Recipe Card Website" /></a>
-                    <a href="img/Dorothy.png" target="_blank"><img src="img/portfolio-example-2.png" alt="Web Design Example" /></a>
-                    <a href="rouge-pickings/index.html" target="_blank"><img src="img/portfolio-example-3.png" alt="Rogue Pickings Website" /></a>
+
+                <div class="sixth-col">
+                    <img src="img/css-icon.png" alt="CSS Icon" />
+                    <h4>CSS</h4>
                 </div>
-            </div>
-                
-            <div class="small-col">
-                <nav>
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-                <aside>
-                    <h3>Top Skills</h3>
 
-                    <div class="skill">
-                        <img src="img/html-css-icon.png" alt="HTML and CSS Icon" />
-                        <h4>HTML and CSS</h4>
+                <div class="sixth-col">
+                    <img src="img/github-icon.png" alt="Github Icon" />
+                    <h4>Git and Github</h4>
+                </div>
+
+                <div class="sixth-col">
+                    <img src="img/python-icon.png" alt="Python Icon" />
+                    <h4>Python</h4>
+                </div>
+
+                <div class="sixth-col">
+                    <img src="img/xd-icon.png" alt="XD Icon" />
+                    <h4>Adobe XD</h4>
+                </div>
+
+                <div class="sixth-col">
+                    <img src="img/js-icon.png" alt="Javascript Icon" />
+                    <h4>Javascript</h4>
+                </div>
+            </section>
+
+            <section id="portfolio">
+                <h3>Portfolio</h3>
+                <div id="portfolio-bg">
+                    <div class="example">
+                        <a href="img/dorothy-design.png" target="_blank"><img src="img/dorothy-ex.png" alt="Web Design Example" /></a>
+                        <h4>Class Project: Web Design</h4>
                     </div>
 
-                    <div class="skill">
-                        <img src="img/xd-icon.png" alt="XD Icon" />
-                        <h4>Adobe XD</h4>
+                    <div class="example">
+                        <a href="img/portfolio-design.png" target="_blank"><img src="img/portfolio-ex.png" alt="Portfolio Website"/></a>
+                        <h4>Practice: Web Design</h4>
                     </div>
 
-                    <div class="skill">
-                        <img src="img/github-icon.png" alt="Github Icon" />
-                        <h4>Git and Github</h4>
+                    <div class="example">
+                        <a href="recipe/index.html" target="_blank"><img src="img/recipe-ex.png" alt="Recipe Card Wesite" /></a>
+                        <h4>Class Project: HTML and CSS</h4>
                     </div>
 
-                    <div class="skill">
-                        <img src="img/proactive-icon.png" alt="Proactive Icon" />
-                        <h4>Proactive</h4>
+                    <div class="example">
+                        <a href="rouge-pickings/index.html" target="_blank"><img src="img/rogue-picking-ex.png" alt="Rogue Pickings Website" /></a>
+                        <h4>Class Project: HTML and CSS</h4>
                     </div>
-
-                    <div class="skill">
-                        <img src="img/attention-icon.png" alt="Attention to Detail Icon" />
-                        <h4>Attention to Detail</h4>
-                    </div>
-
-                </aside>
-            </div>
+                </div>
+            </section>
         </main>
 
         <footer id="contact">

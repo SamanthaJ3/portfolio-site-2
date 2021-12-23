@@ -1,0 +1,123 @@
+/******************BASE STYLES***********************/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{ 
+    font-size: 48px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+p{
+    color: #707070;
+    font-size: 14px;
+}
+
+/******************GRID SYSTEM**********************/
+main {
+    margin:0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.sixth-col {
+    float:left;
+    width: 200px;
+}
+
+footer {
+    background-color: #93D2E6;
+    clear: both;
+    height:200px;
+    margin:0 auto;
+    width: 1200px;
+}
+
+/******************NAVBAR*****************/
+nav ul li {
+    display: inline-block;
+    float:right;
+}
+nav ul li a {
+    color: #93D2E6;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 75px;
+    text-decoration: none;
+}
+
+/*********************HEADER***********************/
+header{
+    color:#997971;
+    margin: 0;
+    padding: 75px;
+}
+
+header h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 72px;
+    line-height: 25px;
+}
+
+header h2{
+    font-size: 36px;
+    font-weight: normal;
+}
+
+header p{
+    padding: 20px 250px;
+}
+
+/***************SKILLS*******************/
+#skills {
+    background-color: #93D2E6;
+    color: #EBE6D8;
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+#skills h4{
+    text-align: center;
+}
+
+#skills img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+/*******************PORTFOLIO******************/
+#portfolio {
+    color: #997971;
+    padding: 10px 80px 50px 80px;
+}
+
+#portfolio-bg {
+    background-color: #E6AC9E;
+    border: 5px solid #EBE6D8;
+    color: #EBE6D8;
+    overflow: auto;
+}
+
+.example {
+    float:left;
+    padding: 25px 25px 5px 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.example img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/***************FOOTER****************/
+footer h3{
+    color: #EBE6D8;
+    padding: 40px 0;
+}
